@@ -1,0 +1,334 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sun img{
+    height: 130px;
+    width: 130px;
+    background: rgb(252, 111, 3);
+    border: 1px solid #ffaa00;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+#merbg{
+    height: 200px;
+    width: 200px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#mercury img{
+    height: 10px;
+    width: 10px;
+    background: rgb(2, 30, 59);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: merqury 3s  linear infinite;
+}
+@keyframes merqury{
+    0% {
+        transform: rotate(0deg) translate(100px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(100px) rotate(360deg);  
+    }
+}
+
+#vbg{
+    height: 260px;
+    width: 260px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#venus img{
+    height: 20px;
+    width: 20px;
+    background: rgb(170, 39, 19);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: venus 4s  linear infinite;
+}
+@keyframes venus{
+    0% {
+        transform: rotate(0deg) translate(130px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(130px) rotate(360deg);  
+    }
+}
+
+#ebg{
+    height: 320px;
+    width: 320px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;  
+}
+#earth img{
+    height: 23px;
+    width: 23px;
+    background: rgb(1, 58, 171);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: earth 4.4s  linear infinite;
+}
+@keyframes earth{
+    0% {
+        transform: rotate(0deg) translate(160px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(160px) rotate(360deg);  
+    }
+}
+
+#mbg{
+    height: 380px;
+    width: 380px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#mars img{
+    height: 22px;
+    width: 22px;
+    background: rgb(161, 15, 15);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: mars 4.7s linear infinite;
+}
+@keyframes mars{
+    0% {
+        transform: rotate(0deg) translate(190px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(190px) rotate(360deg);  
+    }
+}
+
+#jbg{
+    height: 460px;
+    width: 460px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#jupiter img{
+    height: 50px;
+    width: 50px;
+    background: rgb(225, 121, 41);
+    border: 1px solid rgb(225, 121, 41);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: jupiter 6s  linear infinite;
+}
+@keyframes jupiter{
+    0% {
+        transform: rotate(0deg) translate(230px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(230px) rotate(360deg);  
+    }
+}
+
+#sbg{
+    height: 520px;
+    width: 520px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#saturn img{
+    height: 40px;
+    width: 60px;
+    background: rgb(199, 141, 96);
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: saturn 5.5s  linear infinite;
+}
+@keyframes saturn{
+    0% {
+        transform: rotate(0deg) translate(260px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(260px) rotate(360deg);  
+    }
+}
+
+#ubg{
+    height: 600px;
+    width: 600px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#uranus img{
+    height: 30px;
+    width: 30px;
+    background: rgb(21, 108, 165);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: uranus 7s  linear infinite;
+}
+@keyframes uranus{
+    0% {
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(300px) rotate(360deg);  
+    }
+}
+
+#nbg{
+    height: 700px;
+    width: 700px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#neptune img{
+    height: 35px;
+    width: 35px;
+    background: rgb(30, 53, 167);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: neptune 7.5s  linear infinite;
+}
+@keyframes neptune{
+    0% {
+        transform: rotate(0deg) translate(350px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(350px) rotate(360deg);  
+    }
+}
+
+#pbg{
+    height: 760px;
+    width: 760px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#pluto img{
+    height: 15px;
+    width: 15px;
+    background: rgb(96, 42, 24);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    animation: pluto 10s  linear infinite;
+}
+@keyframes pluto{
+    0% {
+        transform: rotate(0deg) translate(380px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(380px) rotate(360deg);  
+    }
+}
